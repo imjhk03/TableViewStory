@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		F51C27A11BEAEC490004474B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C27A01BEAEC490004474B /* AppDelegate.swift */; };
-		F51C27A31BEAEC490004474B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C27A21BEAEC490004474B /* ViewController.swift */; };
 		F51C27A61BEAEC490004474B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51C27A41BEAEC490004474B /* Main.storyboard */; };
 		F51C27A81BEAEC490004474B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51C27A71BEAEC490004474B /* Assets.xcassets */; };
 		F51C27AB1BEAEC490004474B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51C27A91BEAEC490004474B /* LaunchScreen.storyboard */; };
 		F51C27B61BEAEC490004474B /* TableViewStoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C27B51BEAEC490004474B /* TableViewStoryTests.swift */; };
 		F51C27C11BEAEC490004474B /* TableViewStoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C27C01BEAEC490004474B /* TableViewStoryUITests.swift */; };
+		F51C27CF1BEAED210004474B /* AttractionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C27CE1BEAED210004474B /* AttractionTableViewController.swift */; };
+		F51C27D11BEAED500004474B /* AttractionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C27D01BEAED500004474B /* AttractionTableViewCell.swift */; };
+		F51C27E71BEAFDFF0004474B /* jasonchen.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C27E21BEAFDFF0004474B /* jasonchen.png */; };
+		F51C27E81BEAFDFF0004474B /* liam.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C27E31BEAFDFF0004474B /* liam.png */; };
+		F51C27E91BEAFDFF0004474B /* justin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F51C27E41BEAFDFF0004474B /* justin.jpg */; };
+		F51C27EA1BEAFDFF0004474B /* sam.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C27E51BEAFDFF0004474B /* sam.png */; };
+		F51C27EB1BEAFDFF0004474B /* taylor.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C27E61BEAFDFF0004474B /* taylor.png */; };
+		F51C27ED1BEAFF850004474B /* AttractionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C27EC1BEAFF850004474B /* AttractionDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		F51C279D1BEAEC490004474B /* TableViewStory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewStory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51C27A01BEAEC490004474B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F51C27A21BEAEC490004474B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F51C27A51BEAEC490004474B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F51C27A71BEAEC490004474B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F51C27AA1BEAEC490004474B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		F51C27BC1BEAEC490004474B /* TableViewStoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewStoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51C27C01BEAEC490004474B /* TableViewStoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewStoryUITests.swift; sourceTree = "<group>"; };
 		F51C27C21BEAEC490004474B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51C27CE1BEAED210004474B /* AttractionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionTableViewController.swift; sourceTree = "<group>"; };
+		F51C27D01BEAED500004474B /* AttractionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionTableViewCell.swift; sourceTree = "<group>"; };
+		F51C27E21BEAFDFF0004474B /* jasonchen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jasonchen.png; sourceTree = "<group>"; };
+		F51C27E31BEAFDFF0004474B /* liam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liam.png; sourceTree = "<group>"; };
+		F51C27E41BEAFDFF0004474B /* justin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = justin.jpg; sourceTree = "<group>"; };
+		F51C27E51BEAFDFF0004474B /* sam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sam.png; sourceTree = "<group>"; };
+		F51C27E61BEAFDFF0004474B /* taylor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taylor.png; sourceTree = "<group>"; };
+		F51C27EC1BEAFF850004474B /* AttractionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,14 @@
 		F51C27941BEAEC490004474B = {
 			isa = PBXGroup;
 			children = (
+				F51C27EC1BEAFF850004474B /* AttractionDetailViewController.swift */,
+				F51C27E21BEAFDFF0004474B /* jasonchen.png */,
+				F51C27E31BEAFDFF0004474B /* liam.png */,
+				F51C27E41BEAFDFF0004474B /* justin.jpg */,
+				F51C27E51BEAFDFF0004474B /* sam.png */,
+				F51C27E61BEAFDFF0004474B /* taylor.png */,
+				F51C27D01BEAED500004474B /* AttractionTableViewCell.swift */,
+				F51C27CE1BEAED210004474B /* AttractionTableViewController.swift */,
 				F51C279F1BEAEC490004474B /* TableViewStory */,
 				F51C27B41BEAEC490004474B /* TableViewStoryTests */,
 				F51C27BF1BEAEC490004474B /* TableViewStoryUITests */,
@@ -98,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				F51C27A01BEAEC490004474B /* AppDelegate.swift */,
-				F51C27A21BEAEC490004474B /* ViewController.swift */,
 				F51C27A41BEAEC490004474B /* Main.storyboard */,
 				F51C27A71BEAEC490004474B /* Assets.xcassets */,
 				F51C27A91BEAEC490004474B /* LaunchScreen.storyboard */,
@@ -229,7 +250,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51C27EB1BEAFDFF0004474B /* taylor.png in Resources */,
+				F51C27E91BEAFDFF0004474B /* justin.jpg in Resources */,
 				F51C27AB1BEAEC490004474B /* LaunchScreen.storyboard in Resources */,
+				F51C27E81BEAFDFF0004474B /* liam.png in Resources */,
+				F51C27E71BEAFDFF0004474B /* jasonchen.png in Resources */,
+				F51C27EA1BEAFDFF0004474B /* sam.png in Resources */,
 				F51C27A81BEAEC490004474B /* Assets.xcassets in Resources */,
 				F51C27A61BEAEC490004474B /* Main.storyboard in Resources */,
 			);
@@ -256,7 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F51C27A31BEAEC490004474B /* ViewController.swift in Sources */,
+				F51C27CF1BEAED210004474B /* AttractionTableViewController.swift in Sources */,
+				F51C27D11BEAED500004474B /* AttractionTableViewCell.swift in Sources */,
+				F51C27ED1BEAFF850004474B /* AttractionDetailViewController.swift in Sources */,
 				F51C27A11BEAEC490004474B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +381,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -390,6 +419,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -400,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewStory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = soft.induk.jhk.TableViewStory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewStory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = soft.induk.jhk.TableViewStory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +516,7 @@
 				F51C27C71BEAEC490004474B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F51C27C81BEAEC490004474B /* Build configuration list for PBXNativeTarget "TableViewStoryTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +525,7 @@
 				F51C27CA1BEAEC490004474B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F51C27CB1BEAEC490004474B /* Build configuration list for PBXNativeTarget "TableViewStoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +534,7 @@
 				F51C27CD1BEAEC490004474B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
